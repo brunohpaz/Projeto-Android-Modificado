@@ -47,6 +47,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
     line-height: 1.75em;
 }
 
@@ -111,7 +112,8 @@ header {
     background-image: var(--degrade-cabeçalho);
     padding-top: 50px;
     color: white;
-    min-height: 130px;
+    min-width: 500px;
+    text-align: center;
     box-shadow: 5px 5px 15px #00000096;
 }
 
@@ -150,8 +152,8 @@ main {
     background-image: var(--degrade-interno);
     margin:auto;
     padding: 25px;
-    max-width: 950px;
-    min-width: 400px;
+    max-width: 1000px;
+    min-width: 450px;
     margin-bottom: 1%;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 5px 5px #0000004f;
@@ -242,7 +244,9 @@ footer{
     color: var(--color-07);
     background-image:linear-gradient(deg, #000000, #000000, #000000);
     max-width: auto;
+    min-width: 500px;
     margin: auto;
     font-size: large;
+    
     
 }
